@@ -1,2 +1,2 @@
 # 2018-Spring
-This is my class work.
+This is my class work repository.
