@@ -6,14 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
-  values= '';
+  walkValues= '';
+  runValues= '';
+  cycleValues= '';
+  sleepValues= '';
   constructor() { }
 
   ngOnInit() {
   }
-  onKey(walk:string){
+  onKeywalk(walk:string){
     this.values = walk;
-    
-    
   }
+  onKeyrun(run:string){
+    this.runValues = run;
+  }
+  onKeycycle(cycle:string){
+    this.cycleValues =cycle;
+  }
+  onKeysleep(sleep:string){
+    this.sleepValues = sleep;
+  }
+}
 }
